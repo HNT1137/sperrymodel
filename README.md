@@ -1,4 +1,4 @@
-#Sperry Model, C++ Version
+Sperry Model, C++ Version
 Ported from the original VBA implementation
 Port and Readme author: Henry Todd (henry.todd@utah.edu)
 (6/26/19) 0.23
