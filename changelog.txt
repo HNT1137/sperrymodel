@@ -1,0 +1,17 @@
+6/26/2019 - "0.23"
+-Documentation update for packaging with project manuscript.
+
+5/7/2019 - "0.22"
+-Significant performance improvements, tested between 2-4x faster depending on the platform, compiler and optimization settings.
+
+4/5/2019 - "0.21"
+-Fixed a bug which caused the model to always fail with an error on some platforms.
+
+4/3/2019 - "0.2"
+-Additional cleanup of extraneous project-related code, removed more of the commented VBA code, removed two includes which were not in use.
+-Increased floating point output decimal precision to 12 (can change this by editing #define FIO_PRECISION).
+-Reduced console spam.
+-Added units to all column headers.
+-Increased maximum number of years per data file to 90 from 35.
+-Somewhat improved summary output (moved over to first column, reduced "0" spam, corrected a header/column alignment issue, fixed the "end of growing season water content" output).
+-Added some details on input/output variables and setting up parameters to readme.txt. Still need to dedicate time to proper documentation.
