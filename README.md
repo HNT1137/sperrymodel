@@ -1,4 +1,30 @@
+((View as raw text))
+
 Sperry Model, C++ Version
+Ported from the original VBA implementation
+Port and Readme author: Henry Todd (henry.todd@utah.edu)
+(6/26/19) 0.23
+
+------------
+
+Introduction:
+
+The model uses a stomatal gain vs. risk optimization (Sperry et al. 2017 -- see references below)
+combined with a soil water budget to model plant responses to environmental conditions. Tracking
+both the soil water content and the conductance loss due to cavitation allows the cumulative
+effects of exposure to growing season weather to be modeled, including the effects of previous
+drought events in the season.
+
+Inputs are plant and site traits, considered to be static, and hourly weather drivers. The
+outputs include net carbon assimilation (Anet), internal [CO2] (Ci), transpiration (E),
+total evapotranspiration (ET), and element conductances (k) on an hourly and summary basis
+(see details below).
+
+------------
+
+Basic usage instructions:
+
+Provide plSperry Model, C++ Version
 Ported from the original VBA implementation
 Port and Readme author: Henry Todd (henry.todd@utah.edu)
 (6/26/19) 0.23
